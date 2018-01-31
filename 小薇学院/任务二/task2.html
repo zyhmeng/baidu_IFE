@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务二</title>
+
+    <style type="text/css">
+
+        body{
+            background-color: black;
+        }
+
+        #header{
+
+            background-color: black;
+            height: 100px;
+        }
+
+        ul{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .headerLi{
+            float: left;
+            color: white;
+            margin:10px;
+            font-size: 12px;
+        }
+
+        p{
+            text-indent: 2em;
+        }
+
+        .body{
+
+            border: solid 20px gainsboro;
+            background-color: white;
+        }
+
+        h1{
+            margin: 40px 20px 20px 20px;
+            font-size: 20px;
+        }
+
+        h2{
+            margin: 20px;
+            color: darkgray;
+            font-size: 15px;
+        }
+
+        span{
+
+            margin: 20px;
+            color: gainsboro;
+            font-size: 13px;
+        }
+        p{
+            margin: 20px;
+        }
+
+        img{
+            width: 80px;
+            height: 80px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        figcaption{
+
+            text-align: center;
+            margin: 5px;
+        }
+
+        figure{
+
+            width: 150px;
+            height: 150px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #table1{
+
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        #table1 th{
+
+            color: #fff;
+            padding-left: 5px;
+            border: 1px solid #ccc;
+            background-color: #000;
+        }
+
+        #table1 td{
+
+            padding-left: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #tablefooter{
+
+            background-color: #ccc;
+        }
+
+        #table2{
+            width: 100%;
+        }
+
+        #table2 th{
+            text-align: right;
+        }
+
+        #table2 td{
+            text-align: left;
+        }
+
+        #discrib{
+             width: 17em;
+            height: 6em;
+        }
+
+        #button1{
+
+            background-color: blue;
+            width: 100%;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="header">
+
+        <ul>
+            <li class="headerLi">导航链接一</li>
+            <li class="headerLi">导航链接二</li>
+            <li class="headerLi">导航链接三</li>
+            <li class="headerLi">导航链接四</li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <h1>文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <span>文章作者 文章发表时间</span>
+
+        <p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,,这是一个很长很长的段落,这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长<a href="">sdosfiof</a>的段落这是一个很长很长的段落</p>
+
+        <img src="ceshiImg.png" alt="ceshiImg">
+
+    </div>
+
+    <div class="body">
+        <h1>图片</h1>
+
+        <figure>
+
+            <figcaption>好看的图片</figcaption>
+            <img src="ceshiImg.png" alt="">
+
+        </figure>
+
+        <figure>
+
+            <figcaption>好看的图片</figcaption>
+            <img src="ceshiImg.png" alt="">
+
+        </figure>
+
+        <figure>
+
+            <figcaption>好看的图片</figcaption>
+            <img src="ceshiImg.png" alt="">
+
+        </figure>
+
+    </div>
+
+    <div class="body">
+
+        <ol>
+            <li>排名一</li>
+            <li>排名二</li>
+            <li>排名三</li>
+        </ol>
+
+        <p>下面是一个表格,我这里给表格加了一个border=1好让你看出是一个表格,你们不用写</p>
+
+        <table id="table1">
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="http://www.baidu.com">操作</a></td>
+            </tr>
+
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="http://www.baidu.com">操作</a></td>
+            </tr>
+
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="http://www.baidu.com">操作</a></td>
+            </tr>
+
+            <tr id="tablefooter">
+                <td>总计</td>
+                <td colspan="2" align="left">1000</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="body">
+
+        <h2>这里以后是一个侧栏,这是侧栏的标题</h2>
+
+        <table id="table2">
+
+            <tr>
+                <th><label for="email">请输入邮箱地址:</label></th>
+                <td><input type="text" placeholder="这是一个文本输入框" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>邮箱地址请按要求格式输入</td>
+            </tr>
+
+            <tr>
+
+                <th><label for="password">请输入密码</label></th>
+                <td><input type="password" placeholder="请输入密码" name="password" id="password"></td>
+            </tr>
+
+            <tr>
+
+                <th><label for="okpassword">请重复输入密码</label></th>
+                <td><input type="password" placeholder="请重复输入密码" name="okpassword" id="okpassword"></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>密码请为6-16位英文数字</td>
+            </tr>
+
+            <tr>
+
+                <th><label for="sex">性别</label></th>
+                <td>
+                    <input type="radio" value="男" name="sex">
+                    <label>男</label>
+                    <input type="radio" value="女" name="sex">
+                    <label>女</label>
+                </td>
+            </tr>
+
+                <th>
+                    <label>城市:</label>
+                </th>
+
+                <td>
+                    <select name="" id="">
+                        <option value="北京">北京</option>
+                        <option value="上海">上海</option>
+                        <option value="重庆">重庆</option>
+                        <option value="天津">天津</option>
+                    </select>
+                </td>
+
+            <tr>
+
+                <th><label>爱好:</label></th>
+
+                <td>
+                    <input type="checkbox" value="运动" name="hobby">
+                    <label>运动</label>
+                    <input type="checkbox" value="艺术" name="hobby">
+                    <label>艺术</label>
+                    <input type="checkbox" value="科学" name="hobby">
+                    <label>科学</label>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th><label>个人描述:</label></th>
+                <td><input id="discrib" type="textarea" value="" placeholder="这是一个多行输入框,输入您的个人描述" name="discrib"></td>
+
+            </tr>
+
+        </table>
+        <input id="button1" type="submit" value="确认提交" name="submitBut">
+    </div>
+
+</body>
+</html>
